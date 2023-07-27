@@ -8,7 +8,7 @@ import (
 )
 
 // ? 프로그램의 진입점인 main 함수입니다. 프로그램 실행 시 처음으로 실행되는 함수
-func main() {
+func test_main() {
 	//* '/' 경로로 들어오는 HTTP 요청을 처리하기 위한 루트 핸들러를 정의
 	//* w http.ResponseWriter는 클라이언트에게 응답을 작성하는 데 사용되는 인터페이스
 	//* r *http.Request는 클라이언트의 요청을 나타내는 객체
